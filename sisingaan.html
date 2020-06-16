@@ -1,0 +1,135 @@
+<html>
+<head>
+    <link rel="stylesheet" href="style/style-budaya_seni.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Budaya & Seni</title>
+
+</head>
+<body>
+    <div id="header">
+        <p><a href="">Budaya & Pariwisata</a></p>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="#tentang">Tentang</a></li>
+            <li><a href="#objekWisata">Objek Wisata</a></li>
+            <li><a href="sisingaan.html">Budaya & Seni</a></li>
+            <li><a href="">Kontak</a></li>
+        </ul>
+        <p><a href="">Subang</a></p>
+    </div>
+ 
+<br/>
+ 
+    
+	<div class="konten" >
+            <div id="contoh1">
+            <div id="container">
+               <div class="judul">Sisingaan</div>
+               <div class="slideshow-container">
+                    <div class="slider fade">          
+                        <img src="galery/gambar/singa3.jpg"class="gambar"><p><br>
+                    </div>
+                    <div class="slider fade">
+                        <img src="galery\gambar\singa2.jpg" class="gambar"><p>
+                    </div>
+                    <div class="slider fade">
+                        <img src="galery\gambar\singa1.png"class="gambar"><p>
+                    </div>
+
+                    <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+                    <a class="next" onclick="plusSlides(1)">&#10095;</a>
+                    </div>
+                    <br>
+                    <text class="text">  
+                            <h3>Asal Usul</h3>
+                            Sisingaan merupakan salah satu kekayaan budaya dalam bentuk seni tradisional yang berasal dari daerah Subang, Jawa Barat. Kesenian ini juga dikenal dengan sebutan Gotong Singa atau Odong-odong. Sampai sekarang, seni tradisioal ini masih berkembang dengan baik di daerah Subang, bahkan kesenian ini sudah terkenal sampai ke manca negara. Kesenian Sisingaan telah dimainkan oleh rakyat Subang pada saat melawan penjajah sebagai simbol pelecehan terhadap penjajah, yang melambangkan bahwa rakyat Subang tidak takut melawan penjajah pada saat itu. Saat ini, kesenian Sisingaan dimainkan untuk acara-acara khusus seperti acara menerima tamu kehormatan, acara khitanan anak, acara hari-hari besar dan sebagainya. Kabupaten Subang mengadakan festival Sisingaan pada tanggal 5 April setiap tahunnya diikuti oleh semua kecamatan yang ada di Subang untuk memeriahkan acara peringatan hari jadi Kabupaten Subang. <p>                    
+                            
+                    </text>
+                  
+            </div>   
+            </div>
+    </div>
+    <div class="komentar">
+            <h3 style="color: rgb(48, 47, 47)">Comment</h3>
+            <textarea name="komentar" id="" cols="130" rows="10" > </textarea>
+            <button >Kirim</button>
+    </div>
+    <div class="card" style="margin-left: 18px;margin-top: 10px;">
+        <img src="galery/gambar/dogerkontrak1.jpg" alt=""  >
+        <div class="container">
+         <a href=""> <h4><b>Doger Kontrak</b></h4></a> 
+          <p> Doger Kontrak merupakan kesenian rakyat Subang yang sudah mulai tumbuh . . .</p> 
+        </div>
+      </div>
+      <div class="card" style="background-color: rgb(255, 255, 255); margin-left: 347px; margin-top: -193px;">
+         <img src="galery/gambar/gemyung.jpg" alt=""  >
+        <div class="container">
+         <a href=""> <h4> <b>Gembyung</b></h4> </a> 
+          <p>Gembyung adalah ensambel musik yang terdiri dari beberapa waditra terbang . . .</p> 
+        </div>
+      </div>
+      <div class="card" style="background-color: rgb(248, 248, 248);margin-left: 1007px;margin-top:-193px;">
+        <img src="galery/gambar/ruwatan2.jpg" alt=""  >
+        <div class="container">
+         <a href=""> <h4><b>Ruwatan</b></h4></a> 
+          <p>Ruwatan bumi adalah salah satu upacara adat masyarakat agraris yang sampai saat ini  . . .</p> 
+        </div>
+      </div>
+      <div class="card" style="margin-left: 677px;margin-top:-193px;">
+        <img src="galery/gambar/nadran2.jpg" alt="" >
+        <div class="container">
+         <a href="#"> <h4><b>Nadran</b></h4></a> 
+          <p>Nadran merupakan upacara adat yang biasa dilakukan oleh masyarakat pesisir laut di . . .</p> 
+        </div>
+      </div>
+
+    <script>
+        var slideIndex = 1;
+        showSlides(slideIndex);
+
+  
+        function plusSlides(n) {
+        showSlides(slideIndex += n);
+        }
+
+    
+        function currentSlide(n) {
+        showSlides(slideIndex = n);
+        }
+
+        function showSlides(n) {
+        var i;
+        var slides = document.getElementsByClassName("slider");
+        var dots = document.getElementsByClassName("dot");
+        if (n > slides.length) {slideIndex = 1} 
+        if (n < 1) {slideIndex = slides.length}
+        for (i = 0; i < slides.length; i++) {
+            slides[i].style.display = "none"; 
+        }
+        for (i = 0; i < dots.length; i++) {
+            dots[i].className = dots[i].className.replace(" active", "");
+        }
+        slides[slideIndex-1].style.display = "block"; 
+        dots[slideIndex-1].className += " active";
+        }
+    </script>
+</body>
+<div class="footer"> 
+    <div class="kontak">
+        <h3> Kontak</h3>
+        <i class="fa fa-phone" aria-hidden="true"> </i> 083923131xxx</p>
+         <i class="fa fa-envelope" aria-hidden="true">  </i>Subang@gmail.com
+    </div>
+    <div class="garis">
+
+    </div>
+    <div class="media">
+        <h3> Media</h3><br>
+        <i class="fa fa-twitter" aria-hidden="true" ></i> <i class="fa fa-facebook" aria-hidden="true"></i> <i class="fa fa-instagram" aria-hidden="true"></i> <i class="fa fa-whatsapp" aria-hidden="true"></i>
+        <div class="tweter"></div>
+    </div>
+</div>
+<div id="footer">
+	<p class="foot">©Copyright2019</p>
+</div>
+</html>

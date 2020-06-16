@@ -1,0 +1,387 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+#header{
+	font-family: Raleway Medium;
+	width: 100%;
+	background: #000;
+	position: fixed; 
+	padding: 20px;
+	z-index:9999;
+	box-shadow: 7px 0px 5px #333;
+}
+#header p a{
+	text-decoration: none; 
+	color: #f0f0f0;  
+	font-size: 20px; 
+	margin-left: 3rem!important;
+	font-weight: bold;
+}
+#header ul{
+	list-style-type: none;
+	padding-left: 0;
+    margin-bottom: 0;
+	flex-direction: row;
+	margin-right: 6rem! important;
+	float: right;
+	margin-top: -0.5rem! important;
+
+}
+#header ul li{
+	display: inline-block;
+}
+#header li a{
+	display: inline-block;
+	text-decoration: none;
+	display: block;
+	color: #FFFFFF;
+	font-size: 16px;
+	margin-left: 2rem !important;
+}
+#header li a:hover{
+	color: #0782d2;
+}
+ 
+.menu{
+    background: #000;
+    padding-bottom: 10px;
+    padding: 20px;
+}
+
+.menu ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+.menu > ul > li {
+    float: right;
+}
+
+
+.menu li a {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.menu li a:hover{
+    background-color: #2525ff;
+}
+.menu li p{
+    float: right;
+}
+.menu li p{
+    color: white;
+    text-align: left;
+    margin-right: 700px;
+
+}
+
+#kontak{
+	background-color: #d5d8d8;
+	padding: 13px;
+    margin-bottom: 0px;
+    height: 60px;
+}
+.copyright{
+	background-color: #070e0e;
+	padding: 15px;
+    margin-bottom: 10px;
+}
+.konten{
+    height: auto;    
+    width: 987px;
+    border:1px solid rgb(224, 224, 224);
+    margin-bottom: 30px ;
+    margin-left:200px;
+    margin-top: 60px;
+}
+.keterangan{
+     text-align:center;
+}
+#contoh1 p{
+    text - align:right;
+}
+#container{
+    width: 80%;
+    height: auto;
+    
+    margin: 0 auto;
+    position: relative;
+}
+#container>img{
+    height: 100%;
+    width: 100%;
+    position: absolute ;
+    
+
+}
+.komentar{
+    height: auto;    
+    width: 989px;
+    border:1px solid rgb(224, 224, 224);
+    margin-bottom: 20px ;
+    text-align:center;
+    margin-left:200px;
+}
+.komentar h3{
+    margin-right: 86%;
+}
+.komentar textarea{
+    margin-top: 1px;
+
+}
+.komentar button{
+    margin-left: 78%;
+    height: 50px;
+    width: 150px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    background-color: rgb(163, 163, 163);
+    color: rgb(255, 255, 255);
+    border-radius: 3px 3px 3px 3px; 
+    font-size: 12px;
+    box-shadow: 0 4px 10px 10 rgba(0,0,0,0.2);
+
+}
+.card {
+    /* Add shadows to create the "card" effect */
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    background-color: #ffffff;
+    width: 24%;
+    height: auto ;
+  
+  }
+  .card
+  /* On mouse-over, add a deeper shadow */
+  .card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+  }
+  
+  /* Add some padding inside the card container */
+  .container {
+    padding: 2px 16px;
+    
+    
+  }
+  .container > a >h4{
+    text-align: center;
+    color: rgb(5, 5, 5);
+    font-family: Arial, Helvetica, sans-serif
+  }
+  .card {
+    box-shadow: 0 3px 10px 1px rgba(0,0,0,0.2);
+    transition: 0.3s;
+    border-radius: 2px; /* 5px rounded corners */
+  }
+  
+  /* Add rounded corners to the top left and the top right corner of the image */
+  .card >img {
+    margin-left: 12px;
+    margin-top: 15px;
+    border-radius: 5px 5px 0 0;
+    width: 300px;
+    height: 120px;
+  }
+li.dropdown {
+    display: inline-block;
+}
+
+.dropdown:hover .isi-dropdown {
+    display: block;
+}
+
+.isi-dropdown a:hover {
+    color: #fff !important;
+}
+
+.isi-dropdown {
+    position: absolute;
+    display: none;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    background-color: #f9f9f9;
+}
+.gambar{
+    width: 650px;
+    height: 500px;
+    position: relative;
+
+}
+.isi-dropdown a {
+    color: #3c3c3c !important;
+}
+
+.isi-dropdown a:hover {
+    color: #232323 !important;
+    background: #f3f3f3 !important;
+}
+
+.slideshow-container {
+  max-width: 650px;
+  position: relative;
+  margin: auto;
+}
+
+
+.slider {
+  display: none;
+  margin-top:50px;
+  
+}
+
+
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -22px;
+  padding: 16px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+
+.text {
+  color: #200808;
+  font-family: roboto,sans-serif;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: relative;
+  bottom: auto;
+  width: 100%;
+
+  margin-top:100px;
+  margin-bottom: 10px;
+}
+
+.judul {
+  color: #140404;
+  font-size: 20px;
+  font-family: Open Sans;
+  text-align: center;
+  margin-top: 20px;
+}
+
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+  background-color: #717171;
+}
+
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+#footer{
+	background-color: #000;
+	padding: 13px 0;
+	width: 100%;
+}
+.footer{
+    background-color: #bbb;
+    padding: 50px 0;
+    width: 100%;
+    margin-top: 10px;
+}
+.kontak{
+    height: auto;
+    width: 630px;
+   
+    position: absolute;
+    margin-top: -36px;
+    margin-left: 10px;
+}
+.garis{
+    height: 70px;;
+    padding: 2px;
+    border:0px solid #000;
+    position: absolute;
+    opacity: 0.4;
+    filter: alpha(opacity=40);
+    margin-top: -33px;
+    text-align: justify;
+    margin-left: 670;
+    background: #000;
+    border-radius: 4px 4px 4px 4px; 
+}
+.konten{
+    font-family: Raleway Medium;
+}
+.media{
+    font-family: Raleway Medium;
+}
+.media{
+    font-family: Raleway Medium;
+    height: auto;
+    width: 630px;
+    position: absolute;
+    margin-top: -36px;
+    margin-left: 700px;
+}
+.kontak i{
+    margin-top: 1px;
+    height: 25px;
+    width: 25px;
+    border-radius: 2px 2px 2px 2px;
+
+}
+.kontak text{
+    margin-top: 10px;
+    margin-left: 10px;
+    position: absolute;
+
+}
+.media i{
+    margin-top: 1px;
+    height: px;
+    width: 26px;
+    border-radius: 2px 2px 2px 2px;
+}
+.foot{
+	color: #fff;
+	text-align: center;
+	font-family: Open Sans;
+	font-weight: 600;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
